@@ -5,8 +5,8 @@ import os
 # Convert comma-delimited CSV files to pipe-delimited files
 # Usage: Drag-and-drop CSV file over script to convert it.
 
-inputPath = "/home/matt/environment/testdelim/testdoubledelim"
-outputPath = "/home/matt/environment/testdelim/testdoubledelimout"
+inputPath = "[PUT INPUT FILE HERE]"
+outputPath = "[PUT OUTPUT FILE HERE]"
 
 # https://stackoverflow.com/a/27553098/3357935
 print("Converting CSV to tab-delimited file...")
