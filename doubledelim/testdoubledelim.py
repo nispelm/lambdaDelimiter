@@ -9,7 +9,7 @@ inputPath = "[PUT INPUT FILE HERE]"
 outputPath = "[PUT OUTPUT FILE HERE]"
 
 # https://stackoverflow.com/a/27553098/3357935
-print("Converting CSV to tab-delimited file...")
+print("Converting double pipe to single pipe...")
 with open(inputPath) as inputFile:
 	with open(outputPath, 'w', newline='') as outputFile:
 		reader = csv.DictReader((line.replace('||', '|') for line in inputFile), delimiter='|')
